@@ -3,6 +3,8 @@
  */
 
 jQuery(function(){
+
+
     $('free').click(function(){
        alert('it worked');
        //var divObj = '<div class="form-group lshift"><label> Question</label><input class="input-question form-control" name="question" type="text"/></div><div class="form-group lshift"><label> Answer</label><textarea name="input-answer" class="form-control" rows="10" cols="45"></textarea></div>';
@@ -40,7 +42,19 @@ jQuery(function(){
         showMenuContent('communities-partial.html');
     });
     $('#births-link').click(function(){
-        showMenuContent('births-partial.html');
+        //showMenuContent('analytics.html');
+
+            $.ajax({
+                type: "GET",
+                url: 'births-partial.html',
+                cache: false,
+                success: function(data){
+                    $('#mainpane-content').html(data)
+                },
+                error: function(jqXHR, status, error_code){
+                }
+            });
+
     });
 
     $('#registrars-link').click(function(){
