@@ -4,6 +4,9 @@
 
 jQuery(function(){
 
+    $('#addRegistrarModal').on('hide.bs.modal' ,function(e){
+        alert('clicked');
+    });
 
     $('free').click(function(){
        alert('it worked');
@@ -74,6 +77,27 @@ jQuery(function(){
 
     $('#registrars-link').click(function(){
         showMenuContent('registrars-partial.html');
+    });
+
+    $('#add-agent').click(function(e){
+        alert('afasfsa');
+        e.preventDefault();
+        var agentName = $('#agentname');
+        var agentCommunity = $('#agentcommunity');
+        var agentContact = $('#agentcontact');
+
+        var Obj = '<tr><td>'+ agentName.val() +'</td><td> ' +  agentCommunity.val() + '</td><td>'+ agentContact.val() + '</td><td> <span class="glyphicon glyphicon-edit"></span>Edit</a><span class="divider-edit"> | </span><a href="#" class="link-default"><span class="glyphicon glyphicon-trash"></span> Remove</a></td></tr>';
+        $('.table-striped').first().append(Obj);
+
+    });
+
+    // angularjs stuff
+
+    var app = angular.module('birthApp', []);
+    app.controller('RegistrarController', function($scope){
+       $scope.addRegistrar = function(){
+         alert('hi thrt');
+       };
     });
 
 });

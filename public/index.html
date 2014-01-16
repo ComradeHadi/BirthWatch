@@ -18,8 +18,11 @@
     <script src="javascript/respond.min.js"></script>
     <![endif]-->
     <script src="js/jquery-1.8.1.js"></script>
+
     <script src="js/bootstrap.min.js"></script>
+
     <script src="js/Chart.min.js"></script>
+    <!--<script src="js/angular.js"></script>-->
     <script src="js/site.js"></script>
 
 </head>
@@ -42,7 +45,7 @@
                     <ul class="nav navbar-nav pull-right">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle link-white" data-toggle="dropdown">
-                                Username <b class="caret"></b>
+                                Samuel <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="/signout">Signout</a>
@@ -103,13 +106,70 @@
                 </p>
 
             </div>
-            <!--
-            <div class='jump-link'>
-                <a href="#">
-                    <span class="glyphicon glyphicon-user"></span> Look at this
-                </a>
+
+
+            <div class="container">
+                <form for="" name="addagent" class="form-inline">
+                    <div class="form-group">
+                        <input type="text" name="agentname" id="agentname" placeholder="Name" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" name="agentcommunity" id="agentcommunity" placeholder="community" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" name="agentcontact" id="agentcontact" placeholder="Contact" class="form-control"/>
+                    </div>
+                    <button type="submit" class="btn btn-theme btn-link-add" id="add-agent">
+                        <span class="glyphicon glyphicon-user"></span> Add Registrar
+                    </button>
+                </form>
+
             </div>
-            -->
+
+            <div class="container">
+                <div class="">
+                    <table class="table table-striped">
+                        <tr>
+                            <td class=""> <b> Name</b></td>
+                            <td class=""> <b>District</b></td>
+                            <td class=""> <b>Phone</b></td>
+                            <td class=""> <b>Action</b>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=""> John Ansah</td>
+                            <td class=""> Ablekuma West</td>
+                            <td class=""> 0277432467</td>
+                            <td class=""> <a href="#" class="link-default">
+                                <span class="glyphicon glyphicon-edit"></span>Edit
+                            </a>
+                                <span class="divider-edit"> | </span>
+                                <a href="#" class="link-default">
+                                    <span class="glyphicon glyphicon-trash"></span> Remove
+                                </a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=""> Hannah Ashiagbor</td>
+                            <td class=""> Tumu</td>
+                            <td class=""> 0244876346</td>
+                            <td class=""> <a href="#" class="link-default">
+                                <span class="glyphicon glyphicon-edit"></span>Edit
+                            </a>
+                                <span class="divider-edit"> | </span>
+                                <a href="#" class="link-default">
+                                    <span class="glyphicon glyphicon-trash"></span> Remove
+                                </a>
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
         </div>
     </div>

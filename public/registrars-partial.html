@@ -1,4 +1,5 @@
 <!-- Begin modal -->
+        <div>
 <div class="modal fade" id="addRegistrarModal" tabindex="-1" role="dialog" aria-labelledby="addRegistrarModalLabel" aria-hidden="true">
     <div class="modal-dialog" >
         <div class="modal-dialog">
@@ -8,7 +9,7 @@
                     <h4 class="modal-title" id="addRegistrarModalLabel">Add Registrar</h4>
                 </div>
                 <div class="modal-body">
-                    <form for="add-school" name="add-registrar" role="form" id="form-add-registrar" action="">
+                    <form for="add-school" name="add-registrar" role="form" id="form-add-registrar">
                         <div class="form-group">
                             <label for="registrarname"> Registrar Name</label>
                             <input type="text" name="registrarname" id="registrarname" class="form-control"/>
@@ -27,7 +28,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-primary add-data" id="add-data" data-dismiss="modal">Save</button>
+
                 </div>
             </div><!-- /.modal-content -->
         </div> <!-- /.modal-dialog -->
@@ -49,12 +51,16 @@
     </div>
 
     <div class="col-md-6 pull-right btn-link-add">
+        <!--
         <button class="btn btn-theme btn-green" data-toggle="modal" data-target="#addRegistrarModal">
             <span class="glyphicon glyphicon-user"></span> Add Registrar
         </button>
+        -->
 
     </div>
 </div>
+
+
 
 <div class="container top-btm-margin">
     <ul class="pull-right">
@@ -69,9 +75,17 @@
     <div class="">
         <table class="table table-striped">
             <tr>
-                <td class=""> Full Name</td>
-                <td class=""> District</td>
-                <td class=""> Contact</td>
+                <td class=""> <b> Name</b></td>
+                <td class=""> <b>District</b></td>
+                <td class=""> <b>Phone</b></td>
+                <td class=""> <b>Action</b>
+
+                </td>
+            </tr>
+            <tr>
+                <td class=""> John Ansah</td>
+                <td class=""> Ablekuma West</td>
+                <td class=""> 0277432467</td>
                 <td class=""> <a href="#" class="link-default">
                     <span class="glyphicon glyphicon-edit"></span>Edit
                 </a>
@@ -83,9 +97,9 @@
                 </td>
             </tr>
             <tr>
-                <td class=""> Full Name</td>
-                <td class=""> District</td>
-                <td class=""> Contact</td>
+                <td class=""> Hannah Ashiagbor</td>
+                <td class=""> Tumu</td>
+                <td class=""> 0244876346</td>
                 <td class=""> <a href="#" class="link-default">
                                 <span class="glyphicon glyphicon-edit"></span>Edit
                               </a>
@@ -99,3 +113,4 @@
         </table>
     </div>
 </div>
+            </div>
