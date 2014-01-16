@@ -81,7 +81,8 @@ ul.dropdown-menu li a{
     height: auto;
 }
 ul.bs-sidenav li{
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+    
     list-style: none;
     padding-bottom: 10px;
     padding-top: 10px;
