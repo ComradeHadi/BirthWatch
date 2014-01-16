@@ -15,6 +15,10 @@ a.link-default:hover{
     color: #adadad;
     text-decoration: underline;
 }
+.navbar-wrapper{
+    margin-top: 5px;
+    border-bottom: 5px solid #0ac92b;
+}
 .navbar-brand{
     font-family: 'Roboto Condensed', "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
     font-size: 22px;
@@ -50,11 +54,22 @@ ul.dropdown-menu li a{
     color: #adadad;
 }
 .btn-theme{
-    border: 1px solid #adadad;
+    border: 1px solid #e5e5e5;
     border-radius: 1px;
 }
 .btn-yel{
     background-color: #ffff00;
+}
+.btn-green{
+    font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+    background-color: #0ac92b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-green:hover{
+    color: #fff;
+    background-color: #398439;
 }
 .main-dash{
     padding: 10px;
@@ -143,4 +158,51 @@ select#category{
     .container {
         max-width: 1200px;
     }
+}
+.jump-link {
+    margin: 5px 0;
+    padding: 0;
+    position: relative;
+}
+
+.jump-link a {
+    float: left;
+    height: 32px;
+    width: 100%;
+    line-height: 24px;
+    position: relative;
+    margin: 0;
+    padding: 4px 10px 0 14px;
+    background: #0ac92b;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.jump-link a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -16px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #0ac92b;
+    border-style: solid;
+    border-width: 16px 0 16px 16px;
+}
+
+.jump-link a:hover {
+    background: #555;
+}
+
+.jump-link a:hover:after {
+    border-color: transparent transparent transparent #555;
+}
+.footer-default{
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+    background-color: #e5e5e5;
+    color: #595959;
 }
