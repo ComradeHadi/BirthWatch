@@ -31,7 +31,7 @@ a.link-default:hover{
     height: 65px;
 }
 .navbar li.dropdown:hover{
-    border-bottom: 4px solid #ffff00;
+
 }
 .dropdown{
     background-color: #101010;
