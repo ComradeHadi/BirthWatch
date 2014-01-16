@@ -37,7 +37,7 @@ jQuery(function(){
     }
 
     $('#communities-link').click(function(){
-        showMenuContent('registrars-partial.html');
+        showMenuContent('communities-partial.html');
     });
     $('#births-link').click(function(){
         showMenuContent('births-partial.html');
