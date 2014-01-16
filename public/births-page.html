@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/Chart.min.js"></script>
-    <!--<script src="js/angular.js"></script>-->
+    <script src="js/myChart.js"></script>
     <script src="js/site.js"></script>
 
 </head>
@@ -120,6 +120,7 @@
                             <td class=""> <b> Date of Birth(dd/mm/yy)</b>
 
                             </td>
+                            <td> <b>Actions</b> </td>
                         </tr>
                         <tr>
                             <td class=""> John Ansah</td>
@@ -133,14 +134,16 @@
                                 <a href="#" class="link-default">
                                     <span class="glyphicon glyphicon-trash"></span> Remove
                                 </a>
-                                <button class="btn btn-link"> More...</button>
+                                <button class="btn btn-success btn-sm"> Done</button>
+                                <button class="btn btn-link"> Preview</button>
 
                             </td>
                         </tr>
                         <tr>
-                            <td class=""> Hannah Ashiagbor</td>
-                            <td class=""> Tumu</td>
-                            <td class=""> 0244876346</td>
+                            <td class=""> Mohamed Gariba</td>
+                            <td class=""> Firdaus Bambila</td>
+                            <td class=""> Adam Gariba</td>
+                            <td> 04/01/2014</td>
                             <td class=""> <a href="#" class="link-default">
                                 <span class="glyphicon glyphicon-edit"></span>Edit
                             </a>
@@ -148,11 +151,38 @@
                                 <a href="#" class="link-default">
                                     <span class="glyphicon glyphicon-trash"></span> Remove
                                 </a>
+                                <button class="btn btn-default btn-sm"> Pending</button>
+                                <button class="btn btn-link"> More ...</button>
 
                             </td>
                         </tr>
                     </table>
                 </div>
+            </div>
+
+            <div class="container" style="max-width: 300px;">
+                <ul class="pagination">
+
+                    <li class="disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <div class="">
+                    <section>
+                        <canvas id="myChart" class="col-sm-12" width="800" height="350"></canvas>
+                    </section>
+
+                   <!-- <script src="js/site.js"></script> -->
+
+                </div>
+
             </div>
 
         </div>
@@ -162,7 +192,8 @@
 
 <!-- Begin Footer -->
 
-<div class="footer-default">
+<!--
+<div class="footer-default" style="">
 
     <div class="container">
         <h5 class="pull-left">
@@ -174,7 +205,6 @@
     </div>
 
 </div>
-
-
+-->
 </body>
 </html>
