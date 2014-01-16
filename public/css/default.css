@@ -145,6 +145,11 @@ select#category{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.add-comm{
+    padding: 10px;
+    margin: 50px 0 30px 10px;
+
+}
 @media (min-width: 768px) {
     .container {
         max-width: 768px;

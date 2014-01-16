@@ -42,11 +42,12 @@ jQuery(function(){
     }
 
     $('#communities-link').click(function(){
-        showMenuContent('communities-partial.html');
+        //showMenuContent('communities-partial.html');
+        window.location.href = 'communities-page.html';
     });
     $('#births-link').click(function(){
         //showMenuContent('analytics.html');
-
+        /*
             $.ajax({
                 type: "GET",
                 url: 'births-partial.html',
@@ -58,10 +59,14 @@ jQuery(function(){
                 }
             });
 
+            */
+        window.location.href = 'births-page.html';
+
+
     });
     $('#deaths-link').click(function(){
         //showMenuContent('analytics.html');
-
+        /*
         $.ajax({
             type: "GET",
             url: 'deaths-partial.html',
@@ -72,15 +77,21 @@ jQuery(function(){
             error: function(jqXHR, status, error_code){
             }
         });
+        */
+        window.location.href = 'deaths-page.html';
+
 
     });
 
     $('#registrars-link').click(function(){
-        showMenuContent('registrars-partial.html');
+        //showMenuContent('registrars-partial.html');
+        window.location.href = 'registrars-page.html';
+
     });
 
+
     $('#add-agent').click(function(e){
-        alert('afasfsa');
+
         e.preventDefault();
         var agentName = $('#agentname');
         var agentCommunity = $('#agentcommunity');
