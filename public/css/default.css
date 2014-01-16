@@ -1,0 +1,146 @@
+h1, h2{
+    font-family: 'Roboto Condensed', "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+}
+h2{
+    font-size: 4em;
+    font-weight: 100;
+}
+ul{
+    list-style: none;
+}
+a.link-default{
+    color: #595959;
+}
+a.link-default:hover{
+    color: #adadad;
+    text-decoration: underline;
+}
+.navbar-brand{
+    font-family: 'Roboto Condensed', "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+    font-size: 22px;
+}
+.navbar{
+    background-color: #101010;
+    opacity: 1;
+}
+.navbar li.dropdown{
+    height: 65px;
+}
+.navbar li.dropdown:hover{
+    border-bottom: 4px solid #ffff00;
+}
+.dropdown{
+    background-color: #101010;
+    color: #fff;
+}
+a.link-white{
+    color: #fff;
+}
+.navbar-collapse .navbar-nav a:hover{
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+ul.dropdown-menu{
+    background-color: #101010;
+    opacity: 1;
+    color: #fff;
+}
+ul.dropdown-menu li a{
+    color: #adadad;
+}
+.btn-theme{
+    border: 1px solid #adadad;
+    border-radius: 1px;
+}
+.btn-yel{
+    background-color: #ffff00;
+}
+.main-dash{
+    padding: 10px;
+    margin-top: 70px;
+}
+.sidepane-content{
+    border: 1px solid #e5e5e5;
+    min-height: 280px;
+    height: auto;
+}
+ul.bs-sidenav li{
+    font-family: 'Roboto Condensed';
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+ul.bs-sidenav li:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+.glyphicon{
+    margin-right: 7px;
+}
+.sidenav-menu-item{
+    font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #595959;
+}
+.select-menu-alert{
+    text-align: center;
+    color: #5e5e5e;
+}
+.table{
+    font-family: 'Roboto Slab', "Arial Narrow", sans-serif, serif;
+    color: #595959;
+}
+.divider-edit{
+    margin: 0 3px 0 3px;
+}
+
+select#category{
+    width: 100%;
+    height: 35px;
+    color: #8e8e8e;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: -5px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.btn-add-school{
+    margin-top: 30px;
+    padding: 10px;
+}
+#add-school{
+    display: none;
+}
+#view-schools{
+    display: none;
+}
+.lshift{
+    padding-left: 12px;
+}
+.btn-link-add{
+    text-align: right;
+}
+.top-btm-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
