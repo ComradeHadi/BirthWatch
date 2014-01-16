@@ -56,6 +56,21 @@ jQuery(function(){
             });
 
     });
+    $('#deaths-link').click(function(){
+        //showMenuContent('analytics.html');
+
+        $.ajax({
+            type: "GET",
+            url: 'deaths-partial.html',
+            cache: false,
+            success: function(data){
+                $('#mainpane-content').html(data)
+            },
+            error: function(jqXHR, status, error_code){
+            }
+        });
+
+    });
 
     $('#registrars-link').click(function(){
         showMenuContent('registrars-partial.html');
