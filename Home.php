@@ -12,4 +12,9 @@ if($connection)
     echo 'IT WORKED';
 }
 
+$selected = mysql_select_db($db_name,$connection);
+
+if($selected){
+ echo 'SELECTION PAI';
+}
 ?>
