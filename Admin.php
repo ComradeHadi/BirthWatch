@@ -1,7 +1,5 @@
 <?php  
- 
-class Admin 
-{  
+class Admin{  
   public $username;
   public $password;
 
@@ -15,6 +13,9 @@ class Admin
   }
 }  
   
+  public function add_administrator(){
+  	
+  }
 
 //   $admin = new Admin('aname','apss');
 //   echo  $admin->printAdmin();

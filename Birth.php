@@ -1,4 +1,5 @@
 <?php  
+include  'Home.php';
   
 class Birth  
 {  
@@ -15,7 +16,36 @@ class Birth
     	$this->hospital = $g;
     	$this->district = $h;
     	$this->region = $i;
+       
 
+    }
+
+    public function add_birth(){
+               $db_insert_birth = "INSERT INTO birth VALUES (NULL,$this->firstname, $this->lastname, $this->father, $this->mother, 
+                $this->place, $this->date, $this->hospital, $this->district, $this->region)";
+
+         mysql_query($db_insert_birth);
+         $num_rows = mysql_affected_rows();
+
+ //    if($num_rows > 0){
+ // echo 'INSERTED PETO-PETO ';
+ //    }
+ // else{
+ //    echo " It FLOPPED";
+ // }
+    }
+
+    public function remove_birth(){
+        $db_delete_birth = 'DELETE FROM birth WHERE first_name ='.$this->firstname.'last_name ='.$this->last_name;
+        mysql_query($db_insert_birth);
+         $num_rows = mysql_affected_rows();
+
+    if($num_rows > 0){
+ echo 'OVERRRRRRRRR ';
+    }
+ else{
+    echo " It FLOPPED";
+ }
     }
 
     public function toTest(){
@@ -25,6 +55,6 @@ class Birth
 }  
   
 
- //  $yes = new Birth('2','3','4','5','6','7','8','9','10');
- // echo  $yes->toTest();
+  $yes = new Birth('PETOOO','PETOOO','4','5','6','7','8','9','10');
+ $yes->add_birth();
 ?>  
