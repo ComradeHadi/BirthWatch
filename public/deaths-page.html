@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/Chart.min.js"></script>
-    <script src="js/myChart.js"></script>
+    <script src="js/deathChart.js"></script>
     <script src="js/site.js"></script>
 
 </head>
@@ -103,7 +103,7 @@
     <div class="col-md-10">
         <div class="mainpane-content" id="mainpane-content">
             <div class="select-menu-alert add-comm">
-                <h2> Birth Registrations </h2>
+                <h2> Death Registrations </h2>
 
 
             </div>
@@ -115,43 +115,65 @@
                 <div class="">
                     <table class="table table-striped">
                         <tr>
-                            <td class=""> <b> Name of Child</b></td>
-                            <td class=""> <b> Mother's Name </b></td>
-                            <td class=""> <b> Father's Name</b></td>
-                            <td class=""> <b> Date of Birth(dd/mm/yy)</b>
+                            <td class=""> <b> Name</b></td>
+                            <td class=""> <b> District</b></td>
+                            <td class=""> <b> Registered By</b></td>
+                            <td class=""> <b> Date of Death(dd/mm/yy)</b>
 
                             </td>
                             <td> <b>Actions</b> </td>
                         </tr>
                         <tr>
+                            <td class=""> Tony Walker</td>
+                            <td class=""> Mpotoi</td>
                             <td class=""> John Ansah</td>
-                            <td class=""> Mary Nortey</td>
-                            <td class=""> Joe Ansah</td>
-                            <td> 02/01/2014</td>
+                            <td> 07/01/2014</td>
                             <td class=""> <a href="#" class="link-default">
                                 <span class="glyphicon glyphicon-edit"></span>Edit
                             </a>
                                 <span class="divider-edit"> | </span>
-                                <a href="#" class="link-default">
-                                    <span class="glyphicon glyphicon-trash"></span> Remove
-                                </a>
                                 <button class="btn btn-success btn-sm"> Done</button>
                                 <button class="btn btn-link"> Preview</button>
 
                             </td>
                         </tr>
                         <tr>
-                            <td class=""> Mohamed Gariba</td>
-                            <td class=""> Firdaus Bambila</td>
-                            <td class=""> Adam Gariba</td>
-                            <td> 04/01/2014</td>
+                            <td class=""> Yaw Boi</td>
+                            <td class=""> Nzulenzu</td>
+                            <td class=""> Dennis Laribon</td>
+                            <td> 23/12/2013</td>
                             <td class=""> <a href="#" class="link-default">
                                 <span class="glyphicon glyphicon-edit"></span>Edit
                             </a>
                                 <span class="divider-edit"> | </span>
-                                <a href="#" class="link-default">
-                                    <span class="glyphicon glyphicon-trash"></span> Remove
-                                </a>
+                                <button class="btn btn-success btn-sm"> Done</button>
+                                <button class="btn btn-link"> Preview</button>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=""> Issah Adams</td>
+                            <td class=""> Ablekuma</td>
+                            <td class=""> Elikem Essandor</td>
+                            <td> 23/12/2013</td>
+                            <td class=""> <a href="#" class="link-default">
+                                <span class="glyphicon glyphicon-edit"></span>Edit
+                            </a>
+                                <span class="divider-edit"> | </span>
+                                <button class="btn btn-default btn-sm"> Pending</button>
+                                <button class="btn btn-link"> More ...</button>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=""> Flint Asaba</td>
+                            <td class=""> Osu Alata</td>
+                            <td class=""> Paa Lantey</td>
+                            <td> 23/12/2013</td>
+                            <td class=""> <a href="#" class="link-default">
+                                <span class="glyphicon glyphicon-edit"></span>Edit
+                            </a>
+                                <span class="divider-edit"> | </span>
                                 <button class="btn btn-default btn-sm"> Pending</button>
                                 <button class="btn btn-link"> More ...</button>
 
@@ -174,8 +196,8 @@
                 </ul>
             </div>
 
-            <div class="container">
-                <form for="" name="addagent" class="form-inline" style="margin-bottom: 15px;margin-top: 15px;">
+            <div class="container" style="margin-bottom: 15px;margin-top: 15px;">
+                <form for="" name="addagent" class="form-inline">
 
                     <div class="form-group">
                         <label class="control-label"> Sort by Community</label>
@@ -194,18 +216,14 @@
             </div>
 
             <div class="container">
-                <div class="col-md-12">
-                    <div class="">
-                        <section>
-                            <canvas id="myChart" class="col-sm-12" width="800" height="350"></canvas>
-                        </section>
+                <div class="">
+                    <section>
+                        <canvas id="myChart" class="col-sm-12" width="800" height="350"></canvas>
+                    </section>
 
-                        <!-- <script src="js/site.js"></script> -->
+                    <!-- <script src="js/site.js"></script> -->
 
-                    </div>
                 </div>
-
-
 
             </div>
 
@@ -227,7 +245,7 @@
                     {
                         fillColor : "rgba(151,187,205,0.5)",
                         strokeColor : "rgba(151,187,205,1)",
-                        data : [81,38,60,49,56,37,50]
+                        data : [8,3,6,4,5,15,10]
                     }
                 ]
             };
@@ -246,7 +264,7 @@
                     {
                         fillColor : "rgba(151,187,205,0.5)",
                         strokeColor : "rgba(151,187,205,1)",
-                        data : [20,35,70,69,86,77,80]
+                        data : [2,3,7,6,8,7,8]
                     }
                 ]
             };
@@ -265,7 +283,7 @@
                     {
                         fillColor : "rgba(151,187,205,0.5)",
                         strokeColor : "rgba(151,187,205,1)",
-                        data : [32,54,50,49,87,77,80]
+                        data : [3,5,5,4,8,7,8]
                     }
                 ]
             };
@@ -284,7 +302,7 @@
                     {
                         fillColor : "rgba(151,187,205,0.5)",
                         strokeColor : "rgba(151,187,205,1)",
-                        data : [51,68,40,59,66,77,80]
+                        data : [5,6,4,5,6,7,8]
                     }
                 ]
             };
@@ -303,7 +321,7 @@
                     {
                         fillColor : "rgba(151,187,205,0.5)",
                         strokeColor : "rgba(151,187,205,1)",
-                        data : [41,58,65,69,76,87,90]
+                        data : [4,5,6,6,7,8,9]
                     }
                 ]
             };
