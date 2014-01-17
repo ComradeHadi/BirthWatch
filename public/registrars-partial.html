@@ -1,0 +1,101 @@
+<!-- Begin modal -->
+<div class="modal fade" id="addRegistrarModal" tabindex="-1" role="dialog" aria-labelledby="addRegistrarModalLabel" aria-hidden="true">
+    <div class="modal-dialog" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="addRegistrarModalLabel">Add Registrar</h4>
+                </div>
+                <div class="modal-body">
+                    <form for="add-school" name="add-registrar" role="form" id="form-add-registrar" action="">
+                        <div class="form-group">
+                            <label for="registrarname"> Registrar Name</label>
+                            <input type="text" name="registrarname" id="registrarname" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="registrardistrict"> District</label>
+                            <input type="text" name="registrardistrict" id="registrardistrict" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="registrarcontact"> District</label>
+                            <input type="text" name="registrarcontact" id="registrarcontact" class="form-control"/>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div> <!-- /.modal-dialog -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<!--  begin search and add registrar -->
+<div class="container">
+    <div class="col-md-6 pull-left" style="max-width: 300px;">
+        <form for="search-registrar" role="form" class="form-inline" name="search-registrar">
+            <div class="input-group">
+                <input type="text" class="form-control">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                </span>
+            </div><!-- /input-group -->
+        </form>
+    </div>
+
+    <div class="col-md-6 pull-right btn-link-add">
+        <button class="btn btn-theme btn-green" data-toggle="modal" data-target="#addRegistrarModal">
+            <span class="glyphicon glyphicon-user"></span> Add Registrar
+        </button>
+
+    </div>
+</div>
+
+<div class="container top-btm-margin">
+    <ul class="pull-right">
+        <li>
+            Current Registrars <span class="badge">12</span>
+        </li>
+
+    </ul>
+</div>
+<!-- Begin list of registrars -->
+<div class="container">
+    <div class="">
+        <table class="table table-striped">
+            <tr>
+                <td class=""> Full Name</td>
+                <td class=""> District</td>
+                <td class=""> Contact</td>
+                <td class=""> <a href="#" class="link-default">
+                    <span class="glyphicon glyphicon-edit"></span>Edit
+                </a>
+                    <span class="divider-edit"> | </span>
+                    <a href="#" class="link-default">
+                        <span class="glyphicon glyphicon-trash"></span> Remove
+                    </a>
+
+                </td>
+            </tr>
+            <tr>
+                <td class=""> Full Name</td>
+                <td class=""> District</td>
+                <td class=""> Contact</td>
+                <td class=""> <a href="#" class="link-default">
+                                <span class="glyphicon glyphicon-edit"></span>Edit
+                              </a>
+                                <span class="divider-edit"> | </span>
+                            <a href="#" class="link-default">
+                                <span class="glyphicon glyphicon-trash"></span> Remove
+                            </a>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
