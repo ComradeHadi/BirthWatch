@@ -89,6 +89,12 @@ jQuery(function(){
 
     });
 
+    $('#deliveries-link').click(function(){
+        //showMenuContent('registrars-partial.html');
+        window.location.href = 'deliveries-page.html';
+
+    });
+
 
     $('#add-agent').click(function(e){
 
