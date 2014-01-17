@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b27f52a2-0c3c-4679-87ce-63bb8df42522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/deaths-page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/births-page.html" afterPath="$PROJECT_DIR$/public/births-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/communities-page.html" afterPath="$PROJECT_DIR$/public/communities-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/deaths-page.html" afterPath="$PROJECT_DIR$/public/deaths-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/registrars-page.html" afterPath="$PROJECT_DIR$/public/registrars-page.html" />
     </list>
     <ignored path="BirthWatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +53,9 @@
       <file leaf-file-name="deaths-page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/deaths-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="81" selection-start="7890" selection-end="7890" vertical-scroll-proportion="-7.185185" vertical-offset="3370" max-vertical-offset="6426">
+            <state line="104" column="78" selection-start="3611" selection-end="3611" vertical-scroll-proportion="61.0" vertical-offset="3519" max-vertical-offset="6426">
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -70,11 +72,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="births-page.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="births-page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/births-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="110" selection-start="6873" selection-end="6873" vertical-scroll-proportion="0.12873134" vertical-offset="3117" max-vertical-offset="6102">
+            <state line="104" column="79" selection-start="3609" selection-end="3609" vertical-scroll-proportion="-7.7777777" vertical-offset="1662" max-vertical-offset="7020">
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -82,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="communities-page.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="communities-page.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/communities-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="42" selection-start="3702" selection-end="3702" vertical-scroll-proportion="22.88889" vertical-offset="2580" max-vertical-offset="3600">
+            <state line="101" column="64" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.33582088" vertical-offset="1638" max-vertical-offset="4356">
               <folding />
             </state>
           </provider>
@@ -94,7 +97,7 @@
       <file leaf-file-name="registrars-page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/registrars-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="23" selection-start="4586" selection-end="4586" vertical-scroll-proportion="-14.259259" vertical-offset="1829" max-vertical-offset="3564">
+            <state line="101" column="64" selection-start="3598" selection-end="3598" vertical-scroll-proportion="-7.962963" vertical-offset="1603" max-vertical-offset="3564">
               <folding />
             </state>
           </provider>
@@ -155,12 +158,12 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/index-page.html" />
         <option value="$PROJECT_DIR$/public/js/deaths-page.html" />
-        <option value="$PROJECT_DIR$/public/communities-page.html" />
         <option value="$PROJECT_DIR$/public/css/default.css" />
         <option value="$PROJECT_DIR$/public/js/site.js" />
-        <option value="$PROJECT_DIR$/public/registrars-page.html" />
-        <option value="$PROJECT_DIR$/public/deaths-page.html" />
         <option value="$PROJECT_DIR$/public/births-page.html" />
+        <option value="$PROJECT_DIR$/public/deaths-page.html" />
+        <option value="$PROJECT_DIR$/public/registrars-page.html" />
+        <option value="$PROJECT_DIR$/public/communities-page.html" />
       </list>
     </option>
   </component>
@@ -453,20 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/registrars-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="23" selection-start="4586" selection-end="4586" vertical-scroll-proportion="-14.259259" vertical-offset="1829" max-vertical-offset="3564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/communities-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="42" selection-start="3702" selection-end="3702" vertical-scroll-proportion="22.88889" vertical-offset="2580" max-vertical-offset="3600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/myChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="29" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
@@ -474,23 +463,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/births-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="79" selection-start="3609" selection-end="3609" vertical-scroll-proportion="-7.7777777" vertical-offset="1662" max-vertical-offset="7020">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/deaths-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="81" selection-start="7890" selection-end="7890" vertical-scroll-proportion="-7.185185" vertical-offset="3370" max-vertical-offset="6426">
+        <state line="104" column="78" selection-start="3611" selection-end="3611" vertical-scroll-proportion="61.0" vertical-offset="3519" max-vertical-offset="6426">
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/births-page.html">
+    <entry file="file://$PROJECT_DIR$/public/registrars-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="110" selection-start="6873" selection-end="6873" vertical-scroll-proportion="0.12873134" vertical-offset="3117" max-vertical-offset="6102">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="101" column="64" selection-start="3598" selection-end="3598" vertical-scroll-proportion="-7.962963" vertical-offset="1603" max-vertical-offset="3564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/communities-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="64" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.33582088" vertical-offset="1638" max-vertical-offset="4356">
+          <folding />
         </state>
       </provider>
     </entry>
