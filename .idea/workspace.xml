@@ -98,7 +98,7 @@
       <file leaf-file-name="communities-page.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/communities-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="20" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.5951493" vertical-offset="1895" max-vertical-offset="4392">
+            <state line="124" column="85" selection-start="4450" selection-end="4450" vertical-scroll-proportion="0.62873137" vertical-offset="1895" max-vertical-offset="4392">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -472,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/communities-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="20" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.5951493" vertical-offset="1895" max-vertical-offset="4392">
+        <state line="124" column="85" selection-start="4450" selection-end="4450" vertical-scroll-proportion="0.62873137" vertical-offset="1895" max-vertical-offset="4392">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
